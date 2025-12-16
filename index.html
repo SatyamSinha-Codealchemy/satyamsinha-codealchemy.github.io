@@ -18,7 +18,21 @@
   <link rel="canonical" href="https://satyamsinha-codealchemy.github.io" />
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
-  <title>Satyam Kumar Sinha | Full-Stack Developer | ML & Game Developer</title>
+  <div class="hero">
+  <div class="hero-text">
+    <h1>Hi, I'm <strong>Satyam Kumar Sinha</strong></h1>
+    <p><strong>Full-Stack Developer | ML & AI Enthusiast | Game Developer</strong></p>
+  </div>
+
+  <div class="hero-img">
+    <img 
+      src="3.png" 
+      alt="Satyam Kumar Sinha – Full Stack Developer and ML Enthusiast"
+      loading="eager"
+    />
+  </div>
+</div>
+
   <meta name="description" content="Portfolio of Satyam Kumar Sinha — Full‑Stack Developer and ML/AI Enthusiast. Explore projects like Daily Goods Calculator, Capstone Project, and Auto Insurance Fraud Detection." />
   <meta name="keywords" content="Satyam Kumar Sinha, Full‑Stack Developer, ML Engineer, Daily Goods Calculator, Fraud Detection, Capstone Project, GitHub Portfolio" />
 
@@ -51,6 +65,32 @@
   </script>
 
   <style>
+    .hero {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-img img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #007BFF;
+}
+
+@media (max-width: 600px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
     * {
       margin: 0;
       padding: 0;
@@ -470,6 +510,7 @@
   </div>
 </body>
 </html>
+
 
 
 
